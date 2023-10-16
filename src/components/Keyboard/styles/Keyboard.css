@@ -19,10 +19,17 @@
 	position: relative;
 }
 
-.letter span {
+.letter span:first-child {
 	position: absolute;
+	font-weight: 700;
 	top: .5rem;
 	left: 1rem;
+}
+
+.letter span:last-child {
+	position: absolute;
+	bottom: .5rem;
+	right: 1rem;
 }
 
 .bottom-text {

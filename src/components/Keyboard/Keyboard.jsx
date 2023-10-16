@@ -74,6 +74,7 @@ function Letter({ letter, pressedKey }) {
   return (
     <div className={`letter ${wasPressed ? 'active-letter' : ''}`}>
       <span>{letter[0]}</span>
+      <span>{letter[2]}</span>
     </div>
   )
 }
