@@ -45,3 +45,7 @@
 .active-letter {
 	border: 2px solid red;
 }
+
+.correct-letter {
+	border: 2px solid green;
+}
