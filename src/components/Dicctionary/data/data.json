@@ -1,0 +1,42 @@
+{
+  "words": [
+    {
+      "text": "hola",
+      "translation": {
+        "RU": {
+          "text": "текст",
+          "last_modified_date": 1697497136
+        }
+      },
+      "categories": [
+        "FOOD",
+        "OBJECTS"
+      ]
+    },
+    {
+      "text": "como",
+      "translation": {
+        "RU": {
+          "text": "демонстрациях",
+          "last_modified_date": 1697583536
+        }
+      },
+      "categories": [
+        "SPORTS"
+      ]
+    },
+    {
+      "text": "estas",
+      "translation": {
+        "RU": {
+          "text": "вставкой",
+          "last_modified_date": 1697669936
+        }
+      },
+      "categories": [
+        "SPORTS",
+        "FOOD"
+      ]
+    }
+  ]
+}

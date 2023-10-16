@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import Keyboard from './components/Keyboard/Keyboard';
+import Dictionary from "./components/Dicctionary/Dictionary";
 
 function App() {
   return (
