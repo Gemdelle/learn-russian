@@ -2,7 +2,7 @@ import Item from "./Item"
 import './styles/Header.css'
 
 export default function Header() {
-  const names = ["Keyboard", "Dictionary", "Stories"]
+  const names = ["Keyboard", "Dictionary", "Stories"] // Mock
 
   return (
     <header>

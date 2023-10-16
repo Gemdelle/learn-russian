@@ -1,0 +1,26 @@
+.keyboard {
+	margin: 2rem 1rem;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.letter {
+	width: 8vw;
+	height: 50px;
+	border: 1px solid black;
+	position: relative;
+}
+
+.letter span {
+	position: absolute;
+	top: .5rem;
+	left: 1rem;
+}
