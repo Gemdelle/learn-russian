@@ -24,3 +24,17 @@
 	top: .5rem;
 	left: 1rem;
 }
+
+.bottom-text {
+	text-align: center;
+	margin: 3.5rem;
+	font-size: 2rem;
+}
+
+.bottom-text span {
+	margin-right: 0.2rem;
+}
+
+.active-letter {
+	border: 2px solid red;
+}
