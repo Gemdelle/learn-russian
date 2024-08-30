@@ -58,7 +58,51 @@
 	color: black;
 }
 
+.bottom-text .current {
+	background-color: #e6f3ff;
+}
 
-.correct-letter {
-	border: 2px solid green;
+.bottom-text .spoken {
+	color: #888;
+}
+
+.bottom-text .speaking {
+	color: #000;
+	font-weight: bold;
+}
+
+.bottom-text .current {
+	background-color: yellow;
+	font-weight: bold;
+}
+
+.bottom-text .enabled {
+	background-color: lightgreen;
+}
+
+.bottom-text .disable {
+	color: #999;
+}
+
+.bottom-text .spoken {
+	color: #888;
+}
+
+.bottom-text .current-word {
+	color: #000;
+	font-weight: bold;
+	background-color: yellow;
+}
+
+.bottom-text .remaining {
+	color: #000;
+}
+
+.bottom-text .highlighted {
+	background-color: yellow;
+}
+
+.bottom-text .current-word {
+	background-color: lightgreen;
+	font-weight: bold;
 }

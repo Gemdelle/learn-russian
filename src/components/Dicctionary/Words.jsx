@@ -2,7 +2,7 @@ import data from './data/data.json'
 import {Word} from "./Word";
 import './styles/Words.css';
 
-export const Words = ({selectedCategories}) => {
+export const Words = ({selectedCategories, selectedLanguaje}) => {
     const words = data.words;
     return (
         <div className="words-container">

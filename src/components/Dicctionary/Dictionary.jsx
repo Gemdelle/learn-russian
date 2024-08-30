@@ -3,7 +3,7 @@ import {Words} from "./Words";
 import './styles/Dictionary.css';
 import {useState} from "react";
 
-const Dictionary = () => {
+const Dictionary = ({selectedLanguaje}) => {
     const [selectedCategories, setSelectedCategories] = useState([]);
 
     const onSelectCategory = (someSelectedCategory) => {
@@ -21,7 +21,7 @@ const Dictionary = () => {
     return (
         <div className="dictionary-container">
             <Filters selectedCategories={selectedCategories} onSelectCategory={onSelectCategory}/>
-            <Words selectedCategories={selectedCategories}/>
+            <Words selectedLanguaje={selectedLanguaje} selectedCategories={selectedCategories}/>
         </div>
     );
 };
