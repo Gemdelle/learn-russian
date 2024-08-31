@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './styles/Karaoke.css';
+import './styles/StoryTelling.css';
 import audioFile from '../../assets/audios/el_zorro_eldric_cap_01.wav';
 
 const lyricsData = [
@@ -15,7 +15,7 @@ const lyricsData = [
     { time: 48, text: "мужество столкнуться с неизвестным." }
 ];
 
-const Karaoke = () => {
+const StoryTelling = () => {
     const [currentTime, setCurrentTime] = useState(0);
     const [storyText, setStoryText] = useState([]);
     const audioRef = useRef(null);
@@ -59,4 +59,4 @@ const Karaoke = () => {
     );
 };
 
-export default Karaoke;
+export default StoryTelling;

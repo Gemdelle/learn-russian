@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'BlackwoodCastle';
+  src: url('/src/assets/fonts/BlackwoodCastle.TTF') format('truetype');
+}
+
+@font-face {
+  font-family: 'BlackwoodCastleShallow';
+  src: url('/src/assets/fonts/BlackwoodCastleShallow.TTF') format('truetype');
+}
+

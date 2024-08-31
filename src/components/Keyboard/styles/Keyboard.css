@@ -51,7 +51,8 @@
 }
 
 .current {
-	color: saddlebrown
+	color: saddlebrown;
+	animation: tuCurrent 1s forwards;
 }
 
 .enabled {
@@ -61,4 +62,14 @@
 
 .correct-letter {
 	border: 2px solid green;
+}
+
+
+@keyframes tuCurrent {
+	from {
+		color: lightgrey;
+	}
+	to {
+		color: saddlebrown;
+	}
 }
