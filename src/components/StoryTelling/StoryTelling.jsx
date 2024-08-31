@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './styles/StoryTelling.css';
 import audioFile from '../../assets/audios/el_zorro_eldric_cap_01.wav';
 
 const lyricsData = [
@@ -20,6 +19,12 @@ const StoryTelling = () => {
     const [storyText, setStoryText] = useState([]);
     const audioRef = useRef(null);
     const lastAddedTimeRef = useRef(null);
+
+    useEffect(() => {
+        import('./styles/StoryTelling.css')
+            .then(() => console.log('CSS loaded'))
+            .catch(err => console.error('Failed to load CSS', err));
+    }, []);
 
     useEffect(() => {
         const updateCurrentTime = () => {

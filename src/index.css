@@ -22,3 +22,7 @@ code {
   src: url('/src/assets/fonts/BlackwoodCastleShallow.TTF') format('truetype');
 }
 
+@font-face {
+  font-family: 'Century';
+  src: url('/src/assets/fonts/century/Century Normal.ttf') format('truetype');
+}
