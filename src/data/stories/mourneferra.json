@@ -1,0 +1,95 @@
+{
+  "name": "Mourneferra",
+  "epithet": "The Heart Bearer",
+  "bloodline": "Porveldam",
+  "chapters": [
+    {
+      "id": 1,
+      "title": {
+        "en": "If It Beats",
+        "ru": "Если оно бьётся"
+      },
+      "paragraphs": [
+        {
+          "en": "The creature was born without a heart inside its body.",
+          "ru": "Существо родилось без сердца внутри тела."
+        },
+        {
+          "en": "A red sphere rested between its teeth. It beat and moved the blood through its veins.",
+          "ru": "Красная сфера лежала между его зубами. Она билась и двигала кровь по венам."
+        },
+        {
+          "en": "Other Porveldam hid their weak parts beneath shields. But everyone could see this creature’s weakness.",
+          "ru": "Другие Порвельдамы прятали слабые места под щитами. Но слабость этого существа видели все."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": {
+        "en": "If It Rusts",
+        "ru": "Если оно ржавеет"
+      },
+      "paragraphs": [
+        {
+          "en": "One winter, brown rust appeared on the sphere. Its heartbeat became slow and irregular.",
+          "ru": "Однажды зимой на сфере появилась бурая ржавчина. Её пульс стал медленным и неровным."
+        },
+        {
+          "en": "The creature tried to clean it with stones, but the rust continued to grow.",
+          "ru": "Существо пыталось очистить её камнями, но ржавчина продолжала расти."
+        },
+        {
+          "en": "Without help, its iron heart would stop.",
+          "ru": "Без помощи его железное сердце остановилось бы."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": {
+        "en": "If It Trusts",
+        "ru": "Если оно доверяет"
+      },
+      "paragraphs": [
+        {
+          "en": "A small scavenger followed the smell of metal. It ate rust from dead bodies.",
+          "ru": "Маленький падальщик пришёл на запах металла. Он ел ржавчину с мёртвых тел."
+        },
+        {
+          "en": "The creature opened its mouth and allowed the scavenger to enter.",
+          "ru": "Существо открыло пасть и позволило падальщику войти."
+        },
+        {
+          "en": "Every night, the scavenger cleaned the sphere. The creature hunted for them both.",
+          "ru": "Каждую ночь падальщик очищал сферу. Существо охотилось для них обоих."
+        },
+        {
+          "en": "They did not trust each other, but neither could survive alone.",
+          "ru": "Они не доверяли друг другу, но ни один не мог выжить в одиночку."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": {
+        "en": "If It Stops",
+        "ru": "Если оно остановится"
+      },
+      "paragraphs": [
+        {
+          "en": "Many years later, the iron heart stopped. The hungry scavenger bit into it.",
+          "ru": "Много лет спустя железное сердце остановилось. Голодный падальщик укусил его."
+        },
+        {
+          "en": "Black threads suddenly wrapped around the scavenger’s own heart.",
+          "ru": "Внезапно чёрные нити обвили сердце самого падальщика."
+        },
+        {
+          "en": "The creature opened its eyes. Now its heart was alive—and finally hidden inside another body.",
+          "ru": "Существо открыло глаза. Теперь его сердце снова жило — и наконец было спрятано внутри другого тела."
+        }
+      ]
+    }
+  ]
+}

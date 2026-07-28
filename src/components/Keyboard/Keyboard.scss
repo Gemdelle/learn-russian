@@ -1,0 +1,91 @@
+.keyboard-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7vw;
+  font-family: Metamorphous, serif;
+}
+
+.keyboard-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.7vh;
+  flex: 1;
+}
+
+.keyboard-extra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vh;
+  margin-left: -0.6vw;
+  margin-right: 0.8vw;
+  transform: translateY(1.2vh);
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  gap: 0.35vw;
+}
+
+.key {
+  width: 4vw;
+  height: 6vh;
+  border: none;
+  padding: 0;
+  background: url('../../assets/img/UI/key.png') center / 100% 100% no-repeat;
+  color: #e0d0c0;
+  position: relative;
+  font-size: 2.1vh;
+  font-family: Metamorphous, Georgia, serif;
+  cursor: pointer;
+}
+
+.keyboard-extra .key {
+  width: 3.2vw;
+  height: 4.6vh;
+}
+
+.keyboard-extra .key__ru {
+  font-size: 1.6vh;
+  top: 0.3vh;
+  left: 0.3vw;
+}
+
+.keyboard-extra .key__lat {
+  font-size: 1vh;
+}
+
+.key__ru {
+  position: absolute;
+  top: 0.45vh;
+  left: 0.4vw;
+  font-weight: 700;
+  font-size: 2.1vh;
+  pointer-events: none;
+}
+
+.key__lat {
+  position: absolute;
+  bottom: 0.35vh;
+  right: 0.35vw;
+  font-size: 1.2vh;
+  color: #8a7060;
+  pointer-events: none;
+}
+
+.key.is-active,
+.key:active {
+  filter: brightness(1.35);
+}
+
+.key.is-expected {
+  filter: brightness(1.2) saturate(1.2);
+  outline: 1px solid #c8a060;
+  outline-offset: -2px;
+}

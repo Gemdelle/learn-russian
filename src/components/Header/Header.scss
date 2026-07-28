@@ -1,0 +1,64 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 14vh;
+  z-index: 20;
+  pointer-events: none;
+}
+
+.header__symbol {
+  position: absolute;
+  top: 4.6vh;
+  left: 50%;
+  width: 5.5vh;
+  height: 5.5vh;
+  object-fit: contain;
+  pointer-events: none;
+  transform: translateX(-50%);
+  animation: symbol-glow 3.6s ease-in-out infinite;
+}
+
+@keyframes symbol-glow {
+  0%,
+  100% {
+    filter:
+      drop-shadow(0 0 0.35vh rgba(140, 25, 35, 0.55))
+      drop-shadow(0 0 0.9vh rgba(100, 0, 16, 0.35))
+      brightness(1);
+  }
+  50% {
+    filter:
+      drop-shadow(0 0 0.55vh rgba(180, 40, 50, 0.7))
+      drop-shadow(0 0 1.3vh rgba(120, 10, 22, 0.45))
+      brightness(1.04);
+  }
+}
+
+.header__tabs {
+  position: absolute;
+  top: 3.5vh;
+  left: 60%;
+  display: flex;
+  gap: 1.2vw;
+  pointer-events: auto;
+}
+
+.header__btn {
+  width: 11vw;
+  height: 5vh;
+  border: none;
+  background: url('../../assets/img/UI/btn.png') center / 100% 100% no-repeat;
+  color: #e8dcc8;
+  font-size: 1.6vh;
+  cursor: pointer;
+  font-family: Tangerine, Metamorphous, serif;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+}
+
+.header__btn.is-active {
+  filter: brightness(1.25);
+  color: #fff5e8;
+}
